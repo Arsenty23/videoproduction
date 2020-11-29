@@ -3,101 +3,183 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Production</title>
+  <title>video-production</title>
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <a href="/" class="logo">
-        <img src="" alt="" class="logo__pie">
+      <a href="#" class="logo">
+        <img src="" alt="logotip" class="logo__img">
       </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
       <address class="contacts">
-        <a href="tel:+78000039210" class="contacts__phone">8(800)00-392-10</a>
-        <div class="contacts__workhours">Всегда на связи</div>
+        <a href="tel:+78007003030" class="contacts__phone">8(800)7003030</a>
+        <span class="contacts__workhourse">График работы</span>
       </address>
-
     </header>
-    <div class="page-content">
-      <main class="main-content">
-        <nav class="breadcroumbs">
-          <ul class="breadcroumbs__list">
-            <li class="breadcroumbs__item">
-              <a href="#" class="broadcroumbs__link">Главная</a>
-              <div class="breadcroumbs__separator">/</div>
+    <main class="main">
+      <div class="preview">
+        <div class="preview__title"><h1>Снимем для вас креативное видео</h1></div>
+        <div class="preview__text">Креативный видеопродакшн полного цикла</div>
+        <button class="preview__button button">Подробнее</button>
+      </div>
+      <div class="service">
+        <ul class="service__list">
+          <li class="service__item">
+            <div class="service__img">
+              <img src="" alt="service icon" class="service__img-icon">
+            </div>
+            <div class="service__title"><b>Реклама</b></div>
+            <div class="service__condition">
+              <div class="service__condition-person">От <b>5</b> человек на проект</div>
+              <div class="service__condition-day"><b>28</b> дней работы в среднем</div>
+            </div>
+            <div class="service__description">Креатив и производство рекламы,документального и корпаративного контента.</div>
+            <button class="service__button button">Подробнее</button>
+          </li>
+          <li class="service__item">
+            <div class="service__img">
+              <img src="" alt="service icon" class="service__img-icon">
+            </div>
+            <div class="service__title"><b>Видео-клип</b></div>
+            <div class="service__condition">
+              <div class="service__condition-person">От <b>7</b> человек на проект</div>
+              <div class="service__condition-day"><b>21</b> дней работы в среднем</div>
+            </div>
+            <div class="service__description">Вы решили представляться своим слушателям,пополнить свой творческий багаж качественными видео?Прекрасно!</div>
+            <button class="service__button button">Подробнее</button>
+          </li>
+          <li class="service__item">
+            <div class="service__img">
+              <img src="" alt="service icon" class="service__img-icon">
+            </div>
+            <div class="service__title"><b>Свадьба</b></div>
+            <div class="service__condition">
+              <div class="service__condition-person">От <b>2</b> человек на проект</div>
+              <div class="service__condition-day"><b>30</b> дней работы в среднем</div>
+            </div>
+            <div class="service__description">Получите живое видео своего самого счастливого дня,которое Вы будете пересматривать снова и снова.</div>
+            <button class="service__button button">Подробнее</button>
+          </li>
+        </ul>
+        </div>
+        <div class="news">
+          <div class="news__title">Новости и акции</div>
+          <ul class="news__list">
+            <li class="news__item">
+              <time class="news__date">
+                <span class="news__date-month">Декабрь</span>
+                <span class="news__date-year">2019</span>
+              </time>
+              <div class="news__subtitle"><b>Снимем ваш клип на 50% дешевле</b></div>
+              <div class="news__text">В честь Новогодних праздников мы раздаем огромные скидки,успевайте забронировать даты.</div>
             </li>
-            <li class="breadcroumbs__active-item">
-              <a href="#" class="breadcroumbs__active-link">Маршруты</a>
+            <li class="news__item">
+              <time class="news__date">
+                <span class="news__date-month">Декабрь</span>
+                <span class="news__date-year">2019</span>
+              </time>
+              <div class="news__subtitle"><b>Акция для молодоженов 30%</b></div>
+              <div class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
             </li>
           </ul>
-        </nav>
-        <div class="route__image">
-          <img src="" alt="" class="route__image-element">
-          <h1 class="route__image-title">Маршрут Горы</h1>
-        </div>
-        <div class="route__header">
-          <div class="iconed-title">
-            <img src="" alt="" class="iconed-title__icon">
-            <div class="iconed-title__text">База солнышко</div>
+          <div class="paginator">
+            <div class="paginator__display">
+              Страница <span class="paginator__display-current">1</span> из <span class="paginator__display-current">7</span>
+            </div>
+            <ul class="paginator__list">
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">7</a>
+              </li>
+            </ul>
           </div>
-          <ul class="rating">
-            <li class="rating__item">
-              <img src="" alt="" class="rating__star">
-            </li>
-            <li class="rating__item">
-              <img src="" alt="" class="rating__star">
-            </li>
-            <li class="rating__item">
-              <img src="" alt="" class="rating__star">
-            </li>
-            <li class="rating__item">
-              <img src="" alt="" class="rating__star">
-            </li>
-            <li class="rating__item">
-              <img src="" alt="" class="rating__star">
-            </li>
-          </ul>
         </div>
-        <div class="route__description">
-          <p class="route__description-paragraph"><b>Lorem</b>ipsum dolor sit amet consectetur adipisicing elit.<b>Minus, aliquam sequi.</b>Voluptates, eligendi repellendus voluptatum aliquid nobis ipsa illo nemo asperiores non alias libero dolores, officiis perspiciatis animi facere nam?</p>
-          <h3 class="route__description-title">Lorem ipsum dolor sit amet consectetur.</h3>
-          <ul class="route__description-list">
-            <li class="route__description-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem?</li>
-            <li class="route__description-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, autem?</li>
-          </ul>
+        <div class="about">
+          <img src="" alt="about__image" class="about__img">
+          <div class="about__content">
+            <div class="about__title"><b>О нас</b></div>
+            <div class="about__text">Сайт рыбатекст поможет дизайнеру,верстальщику,вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</div>
+            <button class="about__button button">Подробнее</button>
+          </div>
         </div>
-        <div class="paginator">
-          <div class="paginator__display">Маршрут 1 из 7</div>
-          <a href="#" class="paginator__prev"><</a>
-          <ul class="paginator__list">
-            <li class="paginator__list">1</li>
-            <li class="paginator__list">2</li>
-            <li class="paginator__list">3</li>
-            <li class="paginator__list">4</li>
-            <li class="paginator__list">5</li>
-            <li class="paginator__list">6</li>
-            <li class="paginator__list">7</li>
-          </ul>
-          <a href="#" class="paginator__next">></a>
-        </div>
-      </main>
-      <aside class="sidebar">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">Главная</div>
-            </li>
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">Маршруты</div>
-            </li>
-            <li class="menu__item">
-              <img src="" alt="" class="menu__icon">
-              <div class="menu__title">О нас</div>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+    </main>
+    <footer class="footer">
+      <a href="#" class="logo">
+        <img src="" alt="logotip" class="logo__img">
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a href="#" class="socials__link">
+              <img src="" alt="socials icon" class="socials__icon">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link">
+              <img src="" alt="socials icon" class="socials__icon">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link">
+              <img src="" alt="socials icon" class="socials__icon">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="#" class="socials__link">
+              <img src="" alt="socials icon" class="socials__icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <address class="contacts">
+        <span class="contacts__text">Бесплатный звонок по России</span>
+        <a href="tel:+78007003030" class="contacts__phone">8(800)7003030</a>
+      </address>
+    </footer>
+      </div>
     </div>
   </div>
 </body>
